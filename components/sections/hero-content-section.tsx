@@ -77,7 +77,7 @@ const HeroContentSection = () => {
           ))}
         </h1>
       </div>
-      <div className="absolute w-[85%] md:w-[42%] mx-auto max-sm:top-[50%] top-[62%] z-[908]  text-center">
+      <div className="absolute w-[85%] md:w-[42%] mx-auto max-sm:top-[52%] top-[62%] z-[908]  text-center">
         <h2 className="text-xl md:text-3xl  font-medium text-white">
           {"Full Stack Developer".split("").map((word, index) => (
             <span className="position  opacity-0 translate-y-10" key={index}>
