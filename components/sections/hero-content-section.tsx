@@ -77,7 +77,7 @@ const HeroContentSection = () => {
           ))}
         </h1>
       </div>
-      <div className="absolute w-[85%] md:w-1/2 mx-auto max-sm:top-[50%] top-[62%] z-[908]  text-center">
+      <div className="absolute w-[85%] md:w-[42%] mx-auto max-sm:top-[50%] top-[62%] z-[908]  text-center">
         <h2 className="text-xl md:text-3xl  font-medium text-white">
           {"Full Stack Developer".split("").map((word, index) => (
             <span className="position  opacity-0 translate-y-10" key={index}>
@@ -87,10 +87,10 @@ const HeroContentSection = () => {
         </h2>
 
         <p className="text-sm mt-3 font-jost about opacity-0 translate-y-10 text-white">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos impedit
-          quae, ipsum quisquam, neque perspiciatis in quis dolore mollitia
-          doloremque eligendi sapiente. Delectus, eligendi necessitatibus libero
-          doloremque maiores ratione accusantium?
+          Fullstack developer with a solid foundation in both front-end and
+          back-end. My adept problem-solving skills and proactive approach to
+          learning new technologies ensure that I stay at the forefront of
+          industry trends.
         </p>
       </div>
       <a
