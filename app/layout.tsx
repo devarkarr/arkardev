@@ -15,27 +15,27 @@ const azonix = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ar Kar",
+  title: "Ar Kar Lin | Full-stack Developer",
   description: "A Full-stack Developer",
   applicationName: "Portfolio",
   openGraph: {
     type: "website",
     url: "https://devarkarr.vercel.app/",
-    title: "Ar Kar",
+    title: "Ar Kar Lin | Full-stack Developer",
     description: "",
     siteName: "Portfolio website",
     images: [
       {
-        url: "https://i.ibb.co/m5bYtw6/responsive-showcase.png",
+        url: "https://i.ibb.co/nRtHsFg/Screenshot-2024-12-20-at-3-21-12-PM.png",
       },
     ],
   },
   authors: {
-    name: "Ar Kar",
+    name: "Ar Kar Lin",
   },
   generator: "NextJs",
   keywords: ["NextJS", "Portfolio", "GSAP"],
-  creator: "Ar Kar",
+  creator: "Ar Kar Lin",
   icons: {
     icon: "/favicon.svg",
   },
