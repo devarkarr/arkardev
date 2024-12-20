@@ -2,9 +2,7 @@ import React from "react";
 import NavbarSection from "./navbar-section";
 import MouseSection from "./mouse-section";
 
-type Props = {};
-
-const HeroSection = (props: Props) => {
+const HeroSection = () => {
   return (
     <section className="min-h-screen w-screen">
       <MouseSection />

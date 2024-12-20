@@ -1,8 +1,7 @@
 import React from "react";
 
-type Props = {};
 
-const NavbarSection = (props: Props) => {
+const NavbarSection = () => {
   return (
     <nav className="backdrop-blur-sm">
       <div className="h-12 max-w-5xl mx-auto flex items-center max-sm:px-4 ">
