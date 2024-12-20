@@ -17,9 +17,9 @@ const Loader = () => {
     tl.to(".title", {
       opacity: 0,
       stagger: {
-        amount: 0.6,
+        amount: 0.5,
       },
-    });
+    },'-=0.5');
     tl.to(
       ".loader",
       {
@@ -39,10 +39,13 @@ const Loader = () => {
         {[...new Array(11)].map((_, index) => (
           <div key={index} className="loader w-full h-full  bg-[#081427]" />
         ))}
-        <div className=" absolute w-full h-full top-0 z-[9999] flex items-center justify-center">
-          <h1 className=" text-4xl md:text-5xl lg:text-6xl  font-semibold ">
+        <div className=" absolute w-full h-full top-0 z-[9999] flex items-center justify-center ">
+          <h1 className=" text-4xl md:text-5xl lg:text-6xl  font-semibold  font-azonix">
             {"Arkar".split("").map((letter, index) => (
-              <span key={index} className="title opacity-0">
+              <span
+                key={index}
+                className="title text-background dark:text-white opacity-0"
+              >
                 {letter}
               </span>
             ))}

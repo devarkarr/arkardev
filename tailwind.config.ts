@@ -13,6 +13,9 @@ export default {
         foreground: "var(--foreground)",
         primary: "var(--accent-color)",
       },
+      fontFamily: {
+        jost: "Jost, sans-serif",
+      },
     },
   },
   plugins: [],
