@@ -3,6 +3,7 @@ import { Jost } from "next/font/google";
 import "./globals.css";
 import Loader from "@/components/loader";
 import localFont from "next/font/local";
+import NavbarSection from "@/components/sections/navbar-section";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -49,6 +50,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${jost.className} ${azonix.className} `}>
         <Loader />
+        <NavbarSection />
         {children}
       </body>
     </html>
