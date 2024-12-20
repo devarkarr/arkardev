@@ -65,7 +65,7 @@ const HeroContentSection = () => {
 
   return (
     <section className="max-w-5xl h-full mx-auto flex items-center justify-center max-sm:px-4">
-      <div className="coder opacity-0 md:size-[55%] max-sm:absolute mt-[4.5rem]  max-sm:top-[10%] lg:size-1/2 relative z-[900] translate-y-24">
+      <div className="coder opacity-0 md:size-[55%] max-sm:absolute md:mt-[4.5rem]  max-sm:top-[10%] lg:size-1/2 relative z-[900] translate-y-24">
         <Lottie loop animationData={coder} />
       </div>
       <div className="absolute max-sm:top-[28%] text-white top-1/3 z-[888] w-full md:w-1/2 mx-auto  text-center">
