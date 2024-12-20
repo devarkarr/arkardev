@@ -65,7 +65,7 @@ const HeroContentSection = () => {
 
   return (
     <section className="max-w-5xl h-full mx-auto flex items-center justify-center max-sm:px-4">
-      <div className="coder opacity-0 md:size-[55%] max-sm:absolute max-sm:top-[10%] lg:size-1/2 relative z-[900] translate-y-24">
+      <div className="coder opacity-0 md:size-[55%] max-sm:absolute mt-[4.5rem]  max-sm:top-[10%] lg:size-1/2 relative z-[900] translate-y-24">
         <Lottie loop animationData={coder} />
       </div>
       <div className="absolute max-sm:top-[28%] text-white top-1/3 z-[888] w-full md:w-1/2 mx-auto  text-center">
@@ -77,7 +77,7 @@ const HeroContentSection = () => {
           ))}
         </h1>
       </div>
-      <div className="absolute w-[85%] md:w-1/2 mx-auto max-sm:top-[50%] top-[60%] z-[908]  text-center">
+      <div className="absolute w-[85%] md:w-1/2 mx-auto max-sm:top-[50%] top-[62%] z-[908]  text-center">
         <h2 className="text-xl md:text-3xl  font-medium text-white">
           {"Full Stack Developer".split("").map((word, index) => (
             <span className="position  opacity-0 translate-y-10" key={index}>
