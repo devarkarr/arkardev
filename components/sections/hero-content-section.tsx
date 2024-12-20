@@ -8,8 +8,6 @@ const Lottie = dynamic(() => import("lottie-react"), {
   ssr: false,
 });
 
-
-
 const HeroContentSection = () => {
   useGSAP(() => {
     const tl = gsap.timeline();
@@ -60,7 +58,7 @@ const HeroContentSection = () => {
       <div className="coder opacity-0 md:size-[55%] lg:size-1/2 relative z-[900] translate-y-24">
         <Lottie loop animationData={coder} />
       </div>
-      <div className="absolute max-sm:top-[21%] top-[32%] z-[888] w-full md:w-1/2 mx-auto  text-center">
+      <div className="absolute max-sm:top-[28%] text-white top-1/3 z-[888] w-full md:w-1/2 mx-auto  text-center">
         <h1 className="text-5xl md:text-6xl lg:text-7xl  font-bold ">
           {"Arkarlin".split("").map((letter, index) => (
             <span key={index} className="name opacity-0 ">
@@ -69,8 +67,8 @@ const HeroContentSection = () => {
           ))}
         </h1>
       </div>
-      <div className="absolute w-[85%] md:w-1/2 mx-auto max-sm:top-[41%] top-[65.5%] z-[908]  text-center">
-        <h2 className="text-xl md:text-3xl  font-medium ">
+      <div className="absolute w-[85%] md:w-1/2 mx-auto max-sm:top-[52%] top-2/3 z-[908]  text-center">
+        <h2 className="text-xl md:text-3xl  font-medium text-white">
           {"Full Stack Developer".split("").map((word, index) => (
             <span className="position  opacity-0 translate-y-10" key={index}>
               {word}
@@ -78,7 +76,7 @@ const HeroContentSection = () => {
           ))}
         </h2>
 
-        <p className="text-sm mt-3 font-jost about opacity-0 translate-y-10">
+        <p className="text-sm mt-3 font-jost about opacity-0 translate-y-10 text-white">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos impedit
           quae, ipsum quisquam, neque perspiciatis in quis dolore mollitia
           doloremque eligendi sapiente. Delectus, eligendi necessitatibus libero
