@@ -27,7 +27,7 @@ const HeroContentSection = () => {
         y: 0,
         opacity: 1,
       },
-      "-=0.5"
+      "-=0.5",
     );
     tl.to(
       ".position",
@@ -41,7 +41,7 @@ const HeroContentSection = () => {
           amount: 0.8,
         },
       },
-      "-=0.5"
+      "-=0.5",
     );
     tl.to(
       ".about",
@@ -50,7 +50,7 @@ const HeroContentSection = () => {
         opacity: 1,
         duration: 1,
       },
-      "-=0.5"
+      "-=0.5",
     );
     tl.to(
       ".scroll",
@@ -59,7 +59,7 @@ const HeroContentSection = () => {
         duration: 1,
         ease: "power1.inOut",
       },
-      "-=0.5"
+      "-=0.5",
     );
   });
 
@@ -78,7 +78,7 @@ const HeroContentSection = () => {
         </h1>
       </div>
       <div className="absolute w-[85%] md:w-[42%] mx-auto max-sm:top-[52%] top-[62%] z-[908]  text-center">
-        <h2 className="text-xl md:text-3xl  font-medium text-white">
+        <h2 className="text-xl md:text-3xl font-jost font-medium text-white">
           {"Full Stack Developer".split("").map((word, index) => (
             <span className="position  opacity-0 translate-y-10" key={index}>
               {word}

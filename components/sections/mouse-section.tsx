@@ -32,7 +32,7 @@ const MouseSection = () => {
   return (
     <div
       ref={cursor}
-      className="hidden lg:block absolute top-0 left-0  w-5 h-5 border-2 rounded-full border-primary -mt-3 -ml-3"
+      className="hidden lg:block absolute z-50 top-0 left-0  w-5 h-5 border-2 rounded-full border-primary -mt-3 -ml-3"
     ></div>
   );
 };

@@ -22,7 +22,7 @@ const Loader = () => {
           amount: 0.5,
         },
       },
-      "-=0.5"
+      "-=0.5",
     );
     tl.to(
       ".loader",
@@ -33,7 +33,7 @@ const Loader = () => {
         },
         ease: "power4.inOut",
       },
-      "-=0.5"
+      "-=0.5",
     );
   });
 
