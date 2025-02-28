@@ -4,6 +4,7 @@ import "./globals.css";
 import Loader from "@/components/loader";
 import localFont from "next/font/local";
 import NavbarSection from "@/components/sections/navbar-section";
+// import { ThemeProvider } from "@/components/theme-provider";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -49,9 +50,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${jost.className} ${azonix.className} `}>
+        {/* <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        > */}
         <Loader />
         <NavbarSection />
         {children}
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );
