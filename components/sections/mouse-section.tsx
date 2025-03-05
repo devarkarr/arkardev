@@ -13,7 +13,7 @@ const MouseSection = () => {
         y: e.clientY,
         opacity: 1,
         duration: 0.3,
-        stagger: 0.04,
+        stagger: 0.05,
       });
     });
 
