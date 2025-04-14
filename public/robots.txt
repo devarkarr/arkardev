@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://devarkar.vercel.app
+
+# Sitemaps
+Sitemap: https://devarkar.vercel.app/sitemap.xml
