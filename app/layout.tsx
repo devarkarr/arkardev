@@ -16,57 +16,49 @@ const azonix = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ar Kar Lin | Full-stack Developer",
+  title: {
+    template: "%s | Ar Kar Lin",
+    default: "Ar Kar Lin",
+  },
   description:
     "Hi, I'm Ar Kar Lin – a passionate full-stack developer specializing in modern web technologies like Next.js, React, and GSAP.",
-  applicationName: "Arkarlin Portfolio",
-  generator: "Next.js",
-  keywords: [
-    "Arkarlin",
-    "Ar Kar Lin",
-    "Full-stack Developer",
-    "Next.js",
-    "React",
-    "Portfolio",
-    "GSAP",
-    "TypeScript",
-    "Passionate Developer",
-  ],
-  authors: [{ name: "Ar Kar Lin", url: "https://devarkarr.vercel.app/" }],
-  creator: "Ar Kar Lin",
-  publisher: "Ar Kar Lin",
+  keywords:
+    "Arkarlin,devarkar,arkarlin,frontend developer,Ar Kar Lin,Full-stack Developer,Next.js,React,Portfolio,GSAP,TypeScript,Passionate Developer",
   metadataBase: new URL("https://devarkarr.vercel.app"),
+  authors: [{ name: "Ar Kar Lin", url: "https://devarkarr.vercel.app" }],
   openGraph: {
-    title: "Ar Kar Lin | Full-stack Developer",
+    title: "Ar Kar Lin | Passinate Developer",
     description:
       "Discover Ar Kar Lin's portfolio website featuring web development projects, skills, and contact information.",
-    url: "https://devarkarr.vercel.app/",
-    siteName: "Arkarlin Portfolio",
-    type: "website",
+    url: "https://devarkarr.vercel.app",
+    siteName: "%s | Arkarlin",
     images: [
       {
         url: "https://i.ibb.co/nRtHsFg/Screenshot-2024-12-20-at-3-21-12-PM.png",
         width: 1200,
         height: 630,
-        alt: "Ar Kar Lin Portfolio Screenshot",
+        alt: "Ar Kar Lin Portfolio",
       },
     ],
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ar Kar Lin | Full-stack Developer",
+    title: "Ar Kar Lin | Passinate Developer",
     description:
       "Explore Ar Kar Lin’s projects, developer experience, and portfolio site.",
+    creator: "@xsphere",
     images: [
       "https://i.ibb.co/nRtHsFg/Screenshot-2024-12-20-at-3-21-12-PM.png",
     ],
-    creator: "@yourTwitterHandle", // optional
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/apple-touch-icon.png", // optional
+    icon: [
+      { url: "/favicon.svg" },
+      new URL("/favicon.svg", "https://devarkarr.vercel.app"),
+    ],
   },
+  manifest: "https://devarkarr.vercel.app/site.webmanifest",
 };
 
 export default function RootLayout({
