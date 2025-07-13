@@ -17,7 +17,7 @@ const azonix = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Ar Kar Lin",
+    template: "Ar Kar Lin | %s",
     default: "Ar Kar Lin",
   },
   description:
@@ -25,13 +25,13 @@ export const metadata: Metadata = {
   keywords:
     "Arkarlin,devarkar,arkarlin,frontend developer,Ar Kar Lin,Full-stack Developer,Next.js,React,Portfolio,GSAP,TypeScript,Passionate Developer",
   metadataBase: new URL("https://devarkarr.vercel.app"),
-  authors: [{ name: "Ar Kar Lin", url: "https://devarkarr.vercel.app" }],
+  authors: [{ name: "arkarlin", url: "https://devarkarr.vercel.app" }],
   openGraph: {
     title: "Ar Kar Lin | Passinate Developer",
     description:
       "Discover Ar Kar Lin's portfolio website featuring web development projects, skills, and contact information.",
     url: "https://devarkarr.vercel.app",
-    siteName: "%s | Arkarlin",
+    siteName: "arkarlin",
     images: [
       {
         url: "https://i.ibb.co/nRtHsFg/Screenshot-2024-12-20-at-3-21-12-PM.png",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: "Ar Kar Lin | Passinate Developer",
     description:
       "Explore Ar Kar Lin’s projects, developer experience, and portfolio site.",
-    creator: "@xsphere",
+    creator: "@arkarlin",
     images: [
       "https://i.ibb.co/nRtHsFg/Screenshot-2024-12-20-at-3-21-12-PM.png",
     ],
